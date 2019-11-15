@@ -1,0 +1,13 @@
+
+  1 syntax on
+  2 set number
+  3 set mouse=a
+  4 set modelines=0
+  5 set ruler
+  6 set colorcolumn=80
+  7 inoremap jk <Esc>
+  8 inoremap kj <Esc>
+  9
+ 10 "   save on CRTL-S
+ 11 nmap <c-s>                      :w<cr>
+ 12 imap <c-s>                      <esc>:w<cr>a

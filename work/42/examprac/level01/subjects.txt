@@ -1,0 +1,123 @@
+Level 01 - Subjects
+
+********************************************************************************
+********************************************************************************
+// first_word.c //   01
+
+Write a program that takes a string and displays its first word, followed by a
+newline.
+
+A word is a section of string delimited by spaces/tabs or by the start/end of
+the string.
+
+If the number of parameters is not 1, or if there are no words, simply display
+a newline.
+********************************************************************************
+********************************************************************************
+// ft_strcpy.c //   02
+
+Reproduce the behavior of the function strcpy (man strcpy).
+
+Your function must be declared as follows:
+
+char    *ft_strcpy(char *s1, char *s2);
+********************************************************************************
+********************************************************************************
+// ft_strlen.c//   03
+
+Write a function that returns the length of a string.
+
+Your function must be declared as follows:
+
+int	ft_strlen(char *str);
+********************************************************************************
+********************************************************************************
+// repeat_alpha.c //   04
+
+Write a program called repeat_alpha that takes a string and display it
+repeating each alphabetical character as many times as its alphabetical index,
+followed by a newline.
+
+'a' becomes 'a', 'b' becomes 'bb', 'e' becomes 'eeeee', etc...
+
+Case remains unchanged.
+
+If the number of arguments is not 1, just display a newline.
+********************************************************************************
+********************************************************************************
+// search_and_replace.c //   05
+
+Write a program called search_and_replace that takes 3 arguments, the first 
+arguments is a string in which to replace a letter (2nd argument) by
+another one (3rd argument).
+
+If the number of arguments is not 3, just display a newline.
+
+If the second argument is not contained in the first one (the string)
+then the program simply rewrites the string followed by a newline.
+********************************************************************************
+********************************************************************************
+// ulstr.c //   06
+
+Write a program that takes a string and reverses the case of all its letters.
+Other characters remain unchanged.
+
+Yot must display the result followed by a '\n'.
+
+If the number of arguments is not 1, the program displays '\n'.
+********************************************************************************
+********************************************************************************
+// rot_13.c //   07
+
+Write a program that takes a string and displays it, replacing each of its
+letters by the letter 13 spaces ahead in alphabetical order.
+
+'z' becomes 'm' and 'Z' becomes 'M'. Case remains unaffected.
+
+The output will be followed by a newline.
+
+If the number of arguments is not 1, the program displays a newline.
+********************************************************************************
+********************************************************************************
+// ft_putstr.c //   08
+
+Write a function that displays a string on the standard output.
+
+The pointer passed to the function contains the address of the string's first
+character.
+
+Your function must be declared as follows:
+
+void	ft_putstr(char *str);
+********************************************************************************
+********************************************************************************
+// ft_swap.c //   09
+
+Write a function that swaps the contents of two integers the adresses of which
+are passed as parameters.
+
+Your function must be declared as follows:
+
+void	ft_swap(int *a, int *b);
+********************************************************************************
+********************************************************************************
+// rev_print.c //   10
+
+Write a program that takes a string, and displays the string in reverse
+followed by a newline.
+
+If the number of parameters is not 1, the program displays a newline.
+********************************************************************************
+********************************************************************************
+// rotone.c //   11
+
+Write a program that takes a string and displays it, replacing each of its
+letters by the next one in alphabetical order.
+
+'z' becomes 'a' and 'Z' becomes 'A'. Case remains unaffected.
+
+The output will be followed by a \n.
+
+If the number of arguments is not 1, the program displays \n.
+********************************************************************************
+********************************************************************************

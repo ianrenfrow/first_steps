@@ -1,0 +1,11 @@
+
+  1 alias ...='cd ../..'
+  2 alias cl='clear'
+  3 alias ..='cd ..'
+  4 alias v='vim'
+  5 alias vim="stty stop '' -ixoff; vim"
+  6 alias ll='ls -al'
+  7 alias lc='clear && ls -al'
+  8 alias reload='source ~/.zshrc'
+  9 alias testme='norminette -R CheckForbidenSourceHeader'
+ 10 alias runme='gcc -Wall -Wextra -Werror -o test ./*.c && ./test && rm ./test'
